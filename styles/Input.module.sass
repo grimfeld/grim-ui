@@ -1,0 +1,13 @@
+@import "./variables"
+  
+.Input
+  padding: .5em 1em
+  font-size: .8em
+  border: solid .5px lighten($text, 50%)
+  border-radius: .5em
+  color: $text
+  &::placeholder
+    color: lighten($text, 30%)
+.InputDisabled
+  background: lighten($decors, 10%)
+  cursor: not-allowed
